@@ -1,8 +1,9 @@
 git clone git@github.com:morozspb/wiki.git
 
-1. git add .
+1. git add . ; git add -A
 2. git commit -m "Краткое описание изменений"
-3. git push -u origin master
+3. git push -u origin master ; git push /
+origin - означает репозиторий на компьютере, то есть ваш форк. Слово origin — часть команды, не меняйте это название на своё.
 
 ### Настройка
 git config --global user.name "ваше имя"\
